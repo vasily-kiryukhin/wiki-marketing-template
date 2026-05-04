@@ -1,0 +1,19 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# macOS
+.DS_Store
+
+# Большие бинарники — клади выжимку в markdown, оригинал не коммить
+sources/pdf/*.pdf
+sources/voice/*.mp3
+sources/voice/*.wav
+sources/voice/*.m4a
+
+# Секреты
+.env
+*.secret
+secrets/
